@@ -11,6 +11,5 @@ public class Primitive {
 		// Even numbers are printed
 		System.out.print(k + " ");
 		}
-
 	}
 }
