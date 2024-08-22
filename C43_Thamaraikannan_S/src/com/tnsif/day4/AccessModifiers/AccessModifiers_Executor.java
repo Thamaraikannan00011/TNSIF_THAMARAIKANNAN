@@ -19,7 +19,7 @@ public class AccessModifiers_Executor {
 			
 			b1.varProtected=31;
 			b1.methodProtected();
-			
+			     
 			b1.varPublic=41;
 			b1.methodPublic();
 			

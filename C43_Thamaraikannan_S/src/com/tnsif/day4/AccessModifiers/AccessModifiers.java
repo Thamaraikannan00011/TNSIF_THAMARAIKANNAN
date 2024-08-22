@@ -1,14 +1,16 @@
 package com.tnsif.day4.AccessModifiers;
 
 public class AccessModifiers {
+	
 	/*
 	 * Declaring default, public, private and protected variables 
 	 */
+	 
 	int varDefault=10;
 	public int varPublic=20;
 	private int varPrivate=30;
 	protected int varProtected=40;
-	
+	 
 	/*
 	 * Declaring methods with default, public, private, protected types
 	 */
