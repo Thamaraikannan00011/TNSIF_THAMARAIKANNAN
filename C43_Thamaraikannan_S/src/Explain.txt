@@ -27,4 +27,16 @@ Syntax for Java Interfaces
 	    // by default.   
 	}
 
+WRAPPER CLASS :
+	* provide a way to use primitive data type as object.
+	primitive|	wrapper
+	--------------------
+	boolean	 |	Boolean
+	byte	 |	Byte
+	char 	 |  Character
+	float	 |	Float
+	int 	 |	Integer
+	long	 |	Long
+	short	 |	Short
+	double	 |	Double
 
