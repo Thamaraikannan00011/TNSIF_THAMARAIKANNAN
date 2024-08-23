@@ -1,4 +1,4 @@
-package com.tnsif.day2.KeywordsPrimitiveLooping;
+package com.tnsif.day2.Basic;
 
 public class Primitive {
 
@@ -11,4 +11,3 @@ public class Primitive {
 		}
 	}
 }
- 
