@@ -1,6 +1,6 @@
 package com.tnsif.day7.polymorphism;
 
-
+//same function name, but different parameters.
 
 class helper{
 	
