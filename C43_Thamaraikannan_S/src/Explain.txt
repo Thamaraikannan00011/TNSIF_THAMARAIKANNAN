@@ -2,3 +2,29 @@
 . Static 
 . Abstract
 . Final
+
+POLYMORPHISM :
+	* having many forms.
+	* allows us to perform a single action in different ways.
+	* to define one interface and have multiple implementations.
+
+Types of Java Polymorphism:
+	i. Compile-time Polymorphism - static polymorphism, achieved by function overloading
+	   or operator overloading.(same name but different parameters)
+	   Note: But Java doesn’t support the Operator Overloading. 
+	ii.Runtime Polymorphism - Dynamic Method, where multiple functions can have the same name 
+	   but with different parameter lists, process in which a function call to the overridden
+	   method is resolved at Runtime. 
+	   
+INTERFACE :
+	* an abstract type used to specify the behavior of a class.
+	* An interface in Java is a blueprint of a behavior.
+	*
+Syntax for Java Interfaces
+	interface {
+	    // declare constant fields
+	    // declare methods that abstract 
+	    // by default.   
+	}
+
+
