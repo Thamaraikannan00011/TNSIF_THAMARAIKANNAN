@@ -1,9 +1,8 @@
 package com.tnsif.day9.WrapperClass;
 
 public class Wrapperclass {
-
 	public static void main(String[] args) {
-		// Unboxing - converting explicity
+		// Unboxing - converting explicitly.
 		Integer i = new Integer(10);
 		System.out.println(i);
 		int b = i.intValue();//intValue is an method integer can be collected to int.
