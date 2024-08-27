@@ -40,3 +40,94 @@ WRAPPER CLASS :
 	short	 |	Short
 	double	 |	Double
 
+EXCEPTION :
+	* occurs during execution
+	* example, hard disk crash, divide by zero etc,.
+	* The exception class & subclass are a form of throwables
+
+TYPES OF EXCEPTION :
+	1. checked - compile time exception. because, error are checked while compile time 
+	2. unchecked - compiler will not check these exception at compile time
+
+					Object
+					   ^
+	                   |
+					throwable
+					   ^
+					   |
+		----------------------------------------
+		^                                      ^
+		|									   |
+	exception                               Errors
+	^   ^                                       ^
+	|	|										|
+	|	------------->						stackoverflow
+	checked        unchecked				virtualMachine
+	^               ^						outofmemory	
+	|				|						
+	IO  			Arithmetic						
+	SQL				Nullpoint				
+	ClassNotFound	indexoutofbounds
+						^
+						|
+						ArrayIndexOutofBound
+						StringIndexOutofBound
+	
+ERROR :
+	* Errors are usually beyond the control of programmer and we should not try to handle error
+	* error indicate problem in program
+	
+KEYWORDS FOR HANDLING EXCEPTION :
+	# try
+	# catch
+	# throws
+	# throw
+	
+SYNTAX :
+	try{
+		//code, Statement
+	}
+	catch(){    // inside catch if we don't know what error it is use "Exception e"
+		//code, Statement
+	}	
+	finally{
+	
+	}
+	
+THROW :
+	* used to throw an build-in exception or custom exception explicity or manually
+	* we can throw either an checked or unchecked exception
+	
+THROWS :
+	* used in method declaration
+	* it is followed by exception class name. with throws clause, we can declare more than one 
+	  exception.
+	
+SYNTAX :
+	access_specifier_return_type_method_name(parameter list)throws exception{
+		//body of the method
+	}	
+ 
+DIFF BW THROW & THROWS ?
+------------------------------------------------------------------------------------------------
+ 					Throw					|					Throws
+------------------------------------------------------------------------------------------------
+  #	 A throw is used to throw an excepcion 	|	#  A throws to declare one or more exceptions,
+	 explictly								|	   separated by commas.
+  #  Can throw a single exception using 	|	#  Multiple can be thrown using Throws
+     throw									|
+  #  This keyword is used in the method		|	#  Signaturs method is used with keyword throws
+  #  Only unchecked exceptions propagated 	|	#  To raise an exception throws keyword followed
+     using throw keyword.					|      by the class name and checked exception can be 
+     										|	   propagated
+  #  Throw keyword is followed by the       |   #  Throws keyword is followed by the exception 
+  	 an instance of Throwable class or one 	|      class
+  	 of its sub-classes.					|
+------------------------------------------------------------------------------------------------
+  
+THREADS :
+	* A single independent path of execution of a group of statements.  
+ 
+	
+	
+	
