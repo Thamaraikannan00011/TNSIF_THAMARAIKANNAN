@@ -128,6 +128,60 @@ DIFF BW THROW & THROWS ?
 THREADS :
 	* A single independent path of execution of a group of statements.  
  
+THREAD LIFE CYCLE :
+	* A thread in Java at any point of time exists in any one of the following states. A thread 
+	  lies only in one of the shown states at any instant:
+		New State - when a thread is newly created.
+		Runnable State - a thread is ready for execution.
+		Running State - processor allocated time slot to thread for it's execution.
+		Blocked State - when thread is blocked state when it is suspended, sleeping, waiting for 
+			for some time in order to satisfy some condition.
+		Dead State - A thread dies or moves into dead state automatically when it run method 
+			execution of statements.that is thred terminated or dead , when a thread comes out of
+			run() method.
+		Waiting State
+		Timed Waiting State
+		Terminated State	
+	
+THREAD METHODS :
+	# start - initiate execution.
+	# sleep - sleep for specified time and execute.
+	# join - wait for thread die.
+	# wait - current thread wait until anothor thread invokes notify() method. 
+	# notify - Wakes up a single thread that is waiting on the object's monitor.
+	# notifyAll - Wakes up all threads that are waiting on the object's monitor.
+	
+SYNCHRONIZATION :
+	* The process of program under execution.
+	* it runs independently isolated from another process	
+	
+TYPES :
+	# Process Synchronization
+	# Thread Synchronization
+	
+RUNNABLE :
+	It is an interface which can be use implement in class.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
