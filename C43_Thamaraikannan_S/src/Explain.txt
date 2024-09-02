@@ -162,19 +162,72 @@ TYPES :
 RUNNABLE :
 	It is an interface which can be use implement in class.
 	
+HIERARCHY :
+ 								Iterable(I)								(I)-Interface
+ 									^									(C)-class
+									|	
+								Collection(I)
+									^
+									|
+	-------------------------------------------------------------------------------------
+	|								|													|
+ List(I)						  Queue(I)											  Set(I)
+	^							   ^     |											  |  ^
+	|__ArrayList(C)				   |   PriorityQueue(C)						  Hashset(C) |
+	|							   |												  |	 |
+	|_LinkedList(C)-------   	   Deque(I)								LinkedHashSet(C) |
+	|					 |			^													 |
+	|_Vector(C)          |----------|										    Sortedset(I)
+		  ^							|													 ^
+		  |							|													 |
+		Stack(C)				Arraydeque(C)									  TreeSet(C)
 	
 	
+ARRAY LIST :
+	* Not thread safe
+	* Asynchronous manner
+	* Update & Recovery is difficult inerstion & Deletion easily
+
+LINKED LIST :
+	* Thread safe
+	* Synchronous manner
+	* Easy for insertion & Deletion
+	* Search & recovery is difficult
 	
+STACK :
+	* Linear data structure
+	* used to show task
 	
+VECTOR :
+	* same as arrayList
+	* Size is double of arrayList
 	
+MAP :
+	* Key & Value pads
+	* Key can't be duplicated
+	* Key value is a pair
 	
-	
-	
-	
-	
-	
-	
-	
+-----------------------------------------------------------------------------------------------
+| 	INTERFACES	   |		DESCRIPTION														  |
+-----------------------------------------------------------------------------------------------
+| Collection	   | A basic interface that defines operation that all classes that maintain  |
+|				   | collections of object typically implement								  |
+-----------------------------------------------------------------------------------------------
+| Set     		   | Extends collection interface for sets that maintain unique element		  |
+-----------------------------------------------------------------------------------------------
+| SortedSet   	   | Augments set interface or sets that maintain their elements in sorted	  |
+|				   | Order																	  |
+-----------------------------------------------------------------------------------------------
+|List			   | Collection that requires position-oriented operations should be created  |
+|                  | as lists. Duplicates are allowed.										  |
+-----------------------------------------------------------------------------------------------
+|Queue			   | Things arranged by order in which they are to be processed				  |
+-----------------------------------------------------------------------------------------------
+|Map			   | basic interface that defines operations that classes that represent 	  |
+|                  | mapping of keys to values typically implement							  |
+-----------------------------------------------------------------------------------------------
+|SortedMap		   | Extends map interface for maps that maintain their mapping in key order  |
+----------------------------------------------------------------------------------------------- 
 	
 	
 	
