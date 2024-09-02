@@ -163,24 +163,24 @@ RUNNABLE :
 	It is an interface which can be use implement in class.
 	
 HIERARCHY :
- 								Iterable(I)								(I)-Interface
- 									^									(C)-class
+ 								Iterable(I)						(I)-Interface
+ 									^							(C)-class
 									|	
 								Collection(I)
 									^
 									|
-	-------------------------------------------------------------------------------------
-	|								|													|
- List(I)						  Queue(I)											  Set(I)
-	^							   ^     |											  |  ^
-	|__ArrayList(C)				   |   PriorityQueue(C)						  Hashset(C) |
-	|							   |												  |	 |
-	|_LinkedList(C)-------   	   Deque(I)								LinkedHashSet(C) |
-	|					 |			^													 |
-	|_Vector(C)          |----------|										    Sortedset(I)
-		  ^							|													 ^
-		  |							|													 |
-		Stack(C)				Arraydeque(C)									  TreeSet(C)
+	----------------------------------------------------------------------------
+	|								|						        			|
+ List(I)						  Queue(I)									 Set(I)
+	^							   ^     |									  |  ^
+	|__ArrayList(C)				   |   PriorityQueue(C)				  Hashset(C) |
+	|							   |										  |	 |
+	|_LinkedList(C)-------   	   Deque(I)						LinkedHashSet(C) |
+	|					 |			^											 |
+	|_Vector(C)          |----------|								    Sortedset(I)
+		  ^							|											 ^
+		  |							|											 |
+		Stack(C)				Arraydeque(C)							  TreeSet(C)
 	
 	
 ARRAY LIST :
