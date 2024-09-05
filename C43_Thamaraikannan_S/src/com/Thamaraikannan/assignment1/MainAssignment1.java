@@ -4,7 +4,7 @@ import com.Thamaraikannan.assignment1.Employees.Developer;
 import com.Thamaraikannan.assignment1.Employees.Manager;
 import com.Thamaraikannan.assignment1.Utilities.EmployeeUtilities;
 
-public class Main {
+public class MainAssignment1 {
 
 	public static void main(String[] args) {
 		Manager manager = new Manager();
