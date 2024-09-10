@@ -1,10 +1,14 @@
-package com.BankingSystem.Group1;
+package CaseStudy.BankingSystem.Group1.Application;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import CaseStudy.BankingSystem.Group1.subclass.Account;
+import CaseStudy.BankingSystem.Group1.subclass.Beneficiary;
+import CaseStudy.BankingSystem.Group1.subclass.Customer;
+import CaseStudy.BankingSystem.Group1.subclass.Transaction;
 
-public class BankingSystemApp {
+public class BankingsystemApp {
     private static List<Customer> customers = new ArrayList<>();
     private static List<Account> accounts = new ArrayList<>();
     private static List<Transaction> transactions = new ArrayList<>();

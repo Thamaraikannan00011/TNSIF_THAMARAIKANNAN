@@ -1,4 +1,4 @@
-package com.BankingSystem.Group1;
+package CaseStudy.BankingSystem.Group1.subclass;
 
 public class Customer {
     private int customerID;
